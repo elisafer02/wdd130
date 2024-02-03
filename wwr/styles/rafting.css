@@ -60,11 +60,16 @@ nav {
     padding: 15px;
     position: absolute;
     top: 29%;
-    left: 32%;
-    max-width: 317px;
+    left: 10%;
+    display: flex;
+    align-items: center;
+}
+.hero article p{
+    width: 300px;
 }
 .hero article img{
-    width: 100%;
+    width: 400px;
+    margin-left: 10px;
 }
 .size img{
     width: 200px;
