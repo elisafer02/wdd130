@@ -64,6 +64,11 @@ nav {
     display: flex;
     align-items: center;
 }
+.hero h1{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
 .hero article p{
     width: 300px;
 }
@@ -71,8 +76,24 @@ nav {
     width: 400px;
     margin-left: 10px;
 }
-.size img{
-    width: 200px;
+.size{
+    text-align: center;
+}
+section .image{
+    display: flex;
+}
+.history{
+    display: flex;
+}
+.box{
+    margin: 0 10px;
+    text-align: center;
+}
+.history p{
+    padding-top: 25px;
+}
+.image img{
+    width: 180px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
 footer a{
