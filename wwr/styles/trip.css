@@ -1,0 +1,26 @@
+.trips {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 30px 80px;
+    grid-auto-rows: min(400px, 1fr);
+}
+.n_trip {
+    background-color: rgb(243, 232, 76);
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.trip_img {
+    margin-bottom: 30px;
+}
+.trip_img img {
+    width: 380px;
+    height: 200px;
+}
+h6 {
+    margin-top: 10px;
+    font-size: 40px;
+}
